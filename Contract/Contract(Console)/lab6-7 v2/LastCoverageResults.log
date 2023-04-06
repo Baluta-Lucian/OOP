@@ -1,0 +1,21 @@
+[2022-05-27 12:23:56] [info] Start Program:
+Path:"C:\Users\balut\source\repos\lab6-7 v2\x64\Debug\lab6-7 v2.exe"
+Arguments:
+Working directory: "C:\Users\balut\source\repos\lab6-7 v2\lab6-7 v2\"
+Modules: Selected: C:\Users\balut\source\repos\lab6-7 v2\x64\Debug\lab6-7 v2.exe Excluded: 
+Sources: Selected: C:\Users\balut\source\repos\lab6-7 v2\lab6-7 v2 Excluded: UI.cpp 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\balut\AppData\Local\Temp\50siugyl.ahc 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-05-27 12:23:56] [info] Module: C:\Users\balut\source\repos\lab6-7 v2\x64\Debug\lab6-7 v2.exe is selected because it matches selected pattern: C:\Users\balut\source\repos\lab6-7 v2\x64\Debug\lab6-7 v2.exe
+[2022-05-27 12:23:57] [info] ----------------------------------------------------
+[2022-05-27 12:23:57] [info] Coverage binary generated in file: C:\Users\balut\AppData\Local\Temp\50siugyl.ahc
+[2022-05-27 12:23:57] [info] ----------------------------------------------------

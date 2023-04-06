@@ -1,0 +1,4 @@
+C:\Users\balut\source\repos\lab6-7 v2\x64\Debug\lab6-7 v2.exe.lastcodeanalysissucceeded
+C:\Users\balut\source\repos\lab6-7 v2\lab6-7 v2\x64\Debug\NativeCodeAnalysis.read.1.tlog
+C:\Users\balut\Downloads\photoshop try\for learning(apps,etc)\ANUL I\SEM II\OOP\lab6-7 v2\x64\Debug\lab6-7 v2.exe.lastcodeanalysissucceeded
+C:\Users\balut\Downloads\photoshop try\for learning(apps,etc)\ANUL I\SEM II\OOP\lab6-7 v2\lab6-7 v2\x64\Debug\NativeCodeAnalysis.read.1.tlog

@@ -1,0 +1,19 @@
+﻿  entity.cpp
+  Repository.cpp
+  Service.cpp
+  Source.cpp
+  UI.cpp
+  Validators.cpp
+  Running Code Analysis for C/C++...
+  Generating Code...
+  lab6-7 v2.vcxproj -> C:\Users\balut\Downloads\photoshop try\for learning(apps,etc)\ANUL I\SEM II\OOP\lab6-7 v2\x64\Debug\lab6-7 v2.exe
+C:\Users\balut\Downloads\photoshop try\for learning(apps,etc)\ANUL I\SEM II\OOP\lab6-7 v2\lab6-7 v2\entity.h(20): warning C26432: If you define or delete any default operation in the type 'class Subject', define or delete them all (c.21).
+C:\Users\balut\Downloads\photoshop try\for learning(apps,etc)\ANUL I\SEM II\OOP\lab6-7 v2\lab6-7 v2\Repository.cpp(66): warning C26440: Function '<lambda_6d058bedf27bb03c76e6c5386edb83a6>::operator()' can be declared 'noexcept' (f.6).
+C:\Users\balut\Downloads\photoshop try\for learning(apps,etc)\ANUL I\SEM II\OOP\lab6-7 v2\lab6-7 v2\Repository.cpp(116): warning C26496: The variable 'ex' does not change after construction, mark it as const (con.4).
+C:\Users\balut\Downloads\photoshop try\for learning(apps,etc)\ANUL I\SEM II\OOP\lab6-7 v2\lab6-7 v2\Repository.cpp(137): warning C26496: The variable 'ex' does not change after construction, mark it as const (con.4).
+C:\Users\balut\Downloads\photoshop try\for learning(apps,etc)\ANUL I\SEM II\OOP\lab6-7 v2\lab6-7 v2\Repository.cpp(159): warning C26496: The variable 'ex' does not change after construction, mark it as const (con.4).
+C:\Users\balut\Downloads\photoshop try\for learning(apps,etc)\ANUL I\SEM II\OOP\lab6-7 v2\lab6-7 v2\Repository.cpp(166): warning C26496: The variable 'ex' does not change after construction, mark it as const (con.4).
+C:\Users\balut\Downloads\photoshop try\for learning(apps,etc)\ANUL I\SEM II\OOP\lab6-7 v2\lab6-7 v2\Contract.h(34): warning C26440: Function 'SubjectContract::lista' can be declared 'noexcept' (f.6).
+C:\Users\balut\Downloads\photoshop try\for learning(apps,etc)\ANUL I\SEM II\OOP\lab6-7 v2\lab6-7 v2\Service.cpp(40): warning C26440: Function '<lambda_c63ce164faa41efeb7779452576887be>::operator()' can be declared 'noexcept' (f.6).
+C:\Users\balut\Downloads\photoshop try\for learning(apps,etc)\ANUL I\SEM II\OOP\lab6-7 v2\lab6-7 v2\Source.cpp(32): warning C26496: The variable 'ok' does not change after construction, mark it as const (con.4).
+C:\Users\balut\Downloads\photoshop try\for learning(apps,etc)\ANUL I\SEM II\OOP\lab6-7 v2\lab6-7 v2\UI.cpp(200): warning C26496: The variable 'ex' does not change after construction, mark it as const (con.4).

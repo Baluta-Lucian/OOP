@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\balut\Downloads\photoshop try\for learning(apps,etc)\ANUL I\SEM II\OOP\lab6-7 v2\lab6-7 v2\</FILEPATH>
+      <FILENAME>entity.h</FILENAME>
+      <LINE>20</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Subject', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>Subject::{ctor}</FUNCTION>
+    <DECORATED>??0Subject@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\balut\Downloads\photoshop try\for learning(apps,etc)\ANUL I\SEM II\OOP\lab6-7 v2\lab6-7 v2\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>66</LINE>
+      <COLUMN>121</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function '&lt;lambda_6d058bedf27bb03c76e6c5386edb83a6&gt;::operator()' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SubjectRepository::sortByOre::&lt;lambda_6d058bedf27bb03c76e6c5386edb83a6&gt;::()</FUNCTION>
+    <DECORATED>??R&lt;lambda_6d058bedf27bb03c76e6c5386edb83a6&gt;@@QEBA@AEBVSubject@@0@Z</DECORATED>
+    <FUNCLINE>66</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\balut\Downloads\photoshop try\for learning(apps,etc)\ANUL I\SEM II\OOP\lab6-7 v2\lab6-7 v2\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>116</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'ex' does not change after construction, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>testRepoFind</FUNCTION>
+    <DECORATED>?testRepoFind@@YAXXZ</DECORATED>
+    <FUNCLINE>101</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\balut\Downloads\photoshop try\for learning(apps,etc)\ANUL I\SEM II\OOP\lab6-7 v2\lab6-7 v2\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>137</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'ex' does not change after construction, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>testRepoDel</FUNCTION>
+    <DECORATED>?testRepoDel@@YAXXZ</DECORATED>
+    <FUNCLINE>121</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\balut\Downloads\photoshop try\for learning(apps,etc)\ANUL I\SEM II\OOP\lab6-7 v2\lab6-7 v2\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>159</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'ex' does not change after construction, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>testRepoModify</FUNCTION>
+    <DECORATED>?testRepoModify@@YAXXZ</DECORATED>
+    <FUNCLINE>141</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\balut\Downloads\photoshop try\for learning(apps,etc)\ANUL I\SEM II\OOP\lab6-7 v2\lab6-7 v2\</FILEPATH>
+      <FILENAME>Repository.cpp</FILENAME>
+      <LINE>166</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'ex' does not change after construction, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>testRepoModify</FUNCTION>
+    <DECORATED>?testRepoModify@@YAXXZ</DECORATED>
+    <FUNCLINE>141</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

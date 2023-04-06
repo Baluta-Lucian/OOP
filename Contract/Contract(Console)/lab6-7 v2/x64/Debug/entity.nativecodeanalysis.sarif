@@ -1,0 +1,178 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class Subject', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/balut/Downloads/photoshop try/for learning(apps,etc)/ANUL I/SEM II/OOP/lab6-7 v2/lab6-7 v2/entity.h"
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 2,
+                  "endLine": 20,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Subject::{ctor}",
+                  "decoratedName": "??0Subject@@QEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.31.31104.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF762D59CC0 -il C:\\Users\\balut\\AppData\\Local\\Temp\\_CL_4d200bd2ast -typedil -f entity.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1931 -D_MSC_FULL_VER=193131104 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -nologo -W 4 -WX -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -permissive- -Fox64\\Debug\\entity.obj -Fdx64\\Debug\\vc143.pdb -external:W 4 -Gd -analyze:projectdirectory C:\\Users\\balut\\Downloads\\photoshop try\\for learning(apps,etc)\\ANUL I\\SEM II\\OOP\\lab6-7 v2\\lab6-7 v2 -analyze:rulesetdirectory ;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\AllRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/balut/downloads/photoshop try/for learning(apps,etc)/anul i/sem ii/oop/lab6-7 v2/lab6-7 v2/validators.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/balut/Downloads/photoshop try/for learning(apps,etc)/ANUL I/SEM II/OOP/lab6-7 v2/lab6-7 v2/entity.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "935efaf8e63147e82a938ffbe943ac5eb583e7c24533f33ab59ca196afc83ff0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/balut/Downloads/photoshop try/for learning(apps,etc)/ANUL I/SEM II/OOP/lab6-7 v2/lab6-7 v2/Contract.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "7de7fcb6c592d4491ecf698004b267dc183832677103da379523af0065b2c322"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/balut/Downloads/photoshop try/for learning(apps,etc)/ANUL I/SEM II/OOP/lab6-7 v2/lab6-7 v2/UI.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "ddcebaf7968f8b4dc850703a821447b3bbd8adfa0d3df680254871d4436ab2cc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/balut/downloads/photoshop try/for learning(apps,etc)/anul i/sem ii/oop/lab6-7 v2/lab6-7 v2/ui.h"
+          },
+          "hashes": {
+            "sha-256": "3a5c21190a43985c351f6e54e1803c63ce116ce4a957fa7db0fddf9a3a130efa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/balut/downloads/photoshop try/for learning(apps,etc)/anul i/sem ii/oop/lab6-7 v2/lab6-7 v2/service.h"
+          },
+          "hashes": {
+            "sha-256": "0b25d90828538f5382ecf171b56ba3c6a5921ce1bc5ee2ed4559a85e76b387c6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/balut/downloads/photoshop try/for learning(apps,etc)/anul i/sem ii/oop/lab6-7 v2/lab6-7 v2/repository.h"
+          },
+          "hashes": {
+            "sha-256": "9ad8271577d8de23a05ccad8fca4d1afe2837dba626130076b9bcec2b4652227"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/balut/downloads/photoshop try/for learning(apps,etc)/anul i/sem ii/oop/lab6-7 v2/lab6-7 v2/validators.h"
+          },
+          "hashes": {
+            "sha-256": "f2baa4f682eba2c493c949e24ab2b511bf24c23ed53b2e132039f83ab773faab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/balut/Downloads/photoshop try/for learning(apps,etc)/ANUL I/SEM II/OOP/lab6-7 v2/lab6-7 v2/Source.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "553b5b58f530a336751e78375c5c5b9e51a575ac4301de097edfbb71b1a91ee5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/balut/Downloads/photoshop try/for learning(apps,etc)/ANUL I/SEM II/OOP/lab6-7 v2/lab6-7 v2/Service.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "4651ef8e0afbabe5ad13dae1b0c78855b2886a7d7b3a7be57528f8b5b728f73b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/balut/Downloads/photoshop try/for learning(apps,etc)/ANUL I/SEM II/OOP/lab6-7 v2/lab6-7 v2/Repository.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "74ef988eb5e6c63ebe705b6fe5a47284ca2e3f12117f28533ad0eadee4d9914a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/balut/downloads/photoshop try/for learning(apps,etc)/anul i/sem ii/oop/lab6-7 v2/lab6-7 v2/entity.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "0d0deec3359a805a563ddc8ca540cc1e23a169fc1f4a34156fe6907f5370e0e2"
+          }
+        }
+      ]
+    }
+  ]
+}
